@@ -1,0 +1,15 @@
+{
+  "name": "my-dashboard",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "schema": "npx cubejs-schema-compiler",
+    "dev": "cubejs-server"
+  },
+  "template": "docker",
+  "templateVersion": "1.2.6",
+  "devDependencies": {
+    "@cubejs-backend/server": "^1.2.7",
+    "@cubejs-backend/sqlite-driver": "^1.2.7"
+  }
+}
